@@ -20,9 +20,11 @@ Click on the "My New App" button to create a new app. I just named the app "test
 <img width="467" alt="3" src="https://user-images.githubusercontent.com/16840579/56539608-4523b080-651b-11e9-8a73-498aea9c2907.png">
 
 Click the "Register Capsule" button. I'm just going to add the word "example" to it.
-NOTE: remember test_out_spotify.example (or whatever you call your project). This name will be used in your code later.
+
 
 <img width="471" alt="4" src="https://user-images.githubusercontent.com/16840579/56539612-46ed7400-651b-11e9-89ca-12170e9d1799.png">
+
+NOTE: remember test_out_spotify.example (or whatever you call your project). This name will be used in your code later.
 
 <b>Step 5:</b> Click on the Config & Secrets button. This is where you're going to take the Client ID and Client Secret from Spotify so that your app will have access to it. Click the +add button under Secrets. Use the name "id" and apply the Spotify Client ID. Then add the name "secret" and apply the Spotify Client Secret. Be sure to hit the "save and apply" button when you click add.
 
