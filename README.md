@@ -13,7 +13,7 @@ Click on the "My New App" button to create a new app. I just named the app "test
 
 <b>Step 3</b>: At this point you should have page that looks like the picture below. We now have our Client ID and Client Secret.
 
-<img width="1094" alt="2" src="https://user-images.githubusercontent.com/16840579/56539604-42c15680-651b-11e9-9767-f316e406e8c6.png">
+<img width="1094" alt="2" src="https://user-images.githubusercontent.com/16840579/56540633-2672e900-651e-11e9-9acc-c10438ecfb98.png">
 
 <b>Step 4:</b> Go to the Bixby Developer center and sign in. You should see a button to click on the top left to create a team. You can name the team whatever you want, but be sure to use an original Namespace. You most likely won't have access to the name "test_out_spotify" since I already took it. So come up with something original.
 
