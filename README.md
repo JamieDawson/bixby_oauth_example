@@ -6,15 +6,14 @@ Before we begin, you'll need to download Bixby and get a Spotify account (both a
 <b>Step 1</b>: Go to the spotify developers page and log in. 
 
 
-Step 2: Be sure you're looking at the Dashboard section of the site. The page should look something like this:
+<b>Step 2</b>: Be sure you're looking at the Dashboard section of the site. The page should look something like this:
 Click on the "My New App" button to create a new app. I just named the app "testing_spotify". 
 
 
-Step 3: At this point you should have page that looks like the picture below. We now have our Client ID and Client Secret.
+<b>Step 3</b>: At this point you should have page that looks like the picture below. We now have our Client ID and Client Secret.
 
 
-Step 4: Go to the Bixby Developer center and sign in. You should see a button to click on the top left to create a team. You can name the team whatever you want, but be sure to use an original Namespace. You most likely won't have access to the name "test_out_spotify" since I already took it. So come up with something original. 
-Click the "Register Capsule" button. I'm just going to add the word "example" to it.
+<b>Step 4</b>Click the "Register Capsule" button. I'm just going to add the word "example" to it.
 NOTE: remember test_out_spotify.example (or whatever you call your project). This name will be used in your code later.
 
 
