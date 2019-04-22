@@ -9,9 +9,11 @@ Before we begin, you'll need to download Bixby and get a Spotify account (both a
 <b>Step 2</b>: Be sure you're looking at the Dashboard section of the site. The page should look something like this:
 Click on the "My New App" button to create a new app. I just named the app "testing_spotify". 
 
+<img width="996" alt="1" src="https://user-images.githubusercontent.com/16840579/56539598-405efc80-651b-11e9-94f1-4995aa9b19ea.png">
 
 <b>Step 3</b>: At this point you should have page that looks like the picture below. We now have our Client ID and Client Secret.
 
+<img width="1094" alt="2" src="https://user-images.githubusercontent.com/16840579/56539604-42c15680-651b-11e9-9767-f316e406e8c6.png">
 
 <b>Step 4:</b> Click the "Register Capsule" button. I'm just going to add the word "example" to it.
 NOTE: remember test_out_spotify.example (or whatever you call your project). This name will be used in your code later.
