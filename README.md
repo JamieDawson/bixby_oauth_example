@@ -32,7 +32,7 @@ NOTE: remember test_out_spotify.example (or whatever you call your project). Thi
 
 <b>Step 6:</b> So now that you have the full name of what you'll be using (Reminder that mine is: test_out_spotify.example), we need to go back to our Spotify Developer Dashboard and update our uri. To change the uri, click on the green "edit Settings" button.
 
-<img width="853" alt="6" src="https://user-images.githubusercontent.com/16840579/56540738-73ef5600-651e-11e9-9e4e-ac70fa1972d2.png">
+<img width="853" alt="6" src="https://user-images.githubusercontent.com/16840579/56540878-d8121a00-651e-11e9-9ba6-e4f41ff48905.png">
 
 From there, we will need to add our link inside the Redirect URIs option. The format for what we have to type inside that option will look like this:
 https://<your-capsule-id>.oauth.aibixby.com/auth/external/cb
