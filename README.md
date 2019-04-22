@@ -41,14 +41,12 @@ Remember how my project is called test_out_spotify.example (see Step 4)? Where t
 The URI should look something like this:
 https://test_out_spotify-example.oauth.aibixby.com/auth/external/cb
 
+<img width="556" alt="7" src="https://user-images.githubusercontent.com/16840579/56539626-4f45af00-651b-11e9-9498-ce965da25d90.png">
 
 <b>Step 7:</b> So now that we have all the credentials we need, lets apply them to actual code. I created a capsule that will access the Spotify API and display a track ID, a track name, and a track tempo.
 Click this link to clone the example repo.
 
-<img width="556" alt="7" src="https://user-images.githubusercontent.com/16840579/56539626-4f45af00-651b-11e9-9498-ce965da25d90.png">
-
 <b>Step 8:</b> Drag the downloaded repo into bixby.
-
 
 <b>Step 9:</b> Go to capsule.bxb and replace it with the name you chose from step 4.
 
