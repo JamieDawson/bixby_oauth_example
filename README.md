@@ -10,6 +10,7 @@ Before we begin, you'll need to download Bixby and get a Spotify account (both a
 
 <img width="996" alt="1" src="https://user-images.githubusercontent.com/16840579/56539598-405efc80-651b-11e9-94f1-4995aa9b19ea.png">
 Click on the "My New App" button to create a new app. I just named the app "testing_spotify". 
+
 <b>Step 3</b>: At this point you should have page that looks like the picture below. We now have our Client ID and Client Secret.
 
 <img width="1094" alt="2" src="https://user-images.githubusercontent.com/16840579/56539604-42c15680-651b-11e9-9767-f316e406e8c6.png">
