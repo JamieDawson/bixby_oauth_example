@@ -28,7 +28,7 @@ NOTE: remember test_out_spotify.example (or whatever you call your project). Thi
 
 <b>Step 5:</b> Click on the Config & Secrets button. This is where you're going to take the Client ID and Client Secret from Spotify so that your app will have access to it. Click the +add button under Secrets. Use the name "id" and apply the Spotify Client ID. Then add the name "secret" and apply the Spotify Client Secret. Be sure to hit the "save and apply" button when you click add.
 
-![5](https://user-images.githubusercontent.com/16840579/56539620-4b199180-651b-11e9-8b43-bfc3302560a7.png)
+![5](https://user-images.githubusercontent.com/16840579/56540683-4efae300-651e-11e9-8e73-1f1a96c14cbe.png)
 
 <b>Step 6:</b> So now that you have the full name of what you'll be using (Reminder that mine is: test_out_spotify.example), we need to go back to our Spotify Developer Dashboard and update our uri. To change the uri, click on the green "edit Settings" button.
 
