@@ -39,11 +39,13 @@ NOTE: remember test_out_spotify.example (or whatever you call your project). Thi
 <img width="853" alt="6" src="https://user-images.githubusercontent.com/16840579/56540878-d8121a00-651e-11e9-9ba6-e4f41ff48905.png">
 
 From there, we will need to add our link inside the Redirect URIs option. The format for what we have to type inside that option will look like this:
-https://<your-capsule-id>.oauth.aibixby.com/auth/external/cb
+
+`https://<your-capsule-id>.oauth.aibixby.com/auth/external/cb`
   
 Remember how my project is called test_out_spotify.example (see Step 4)? Where the "." is between test_out_spotify and example, replace it with a "-". replace <your-capsule-id> inside the above example with your project name. 
 The URI should look something like this:
-https://test_out_spotify-example.oauth.aibixby.com/auth/external/cb
+  
+`https://test_out_spotify-example.oauth.aibixby.com/auth/external/cb`
 
 <img width="556" alt="7" src="https://user-images.githubusercontent.com/16840579/56539626-4f45af00-651b-11e9-9498-ce965da25d90.png">
 
