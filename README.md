@@ -51,7 +51,7 @@ The URI should look something like this:
 
 <b>Step 7:</b> So now that we have all the credentials we need, lets apply them to actual code. I created a capsule that will access the Spotify API and display a track ID, a track name, and a track tempo.
 
-[Click this link to clone the example repo](https://github.com/JamieDawson/bixby_oauth_example).
+At this point, you should download this repo.
 
 <b>Step 8:</b> Drag the downloaded repo into bixby.
 
