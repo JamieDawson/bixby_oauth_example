@@ -1,12 +1,12 @@
 NOTE: This is the example code I created for Bixby to teach people who to use OAuth for the Spotify API. I created this repo so that people could download it and test their Spotify Client ID and Client Secret to confirm if they are using OAuth correctly. You're probably here because you found think link in my Medium post. If not, then you can read my entire tutorial by reading everything below.
 
 
-I recently completed a week long Bixby Hackathon at 42 Silicon valley. My team managed to create  a music searching app that lets DJs find up songs for their genre and BPM using the Spotify API by just speaking to the phone. One of the hardest aspects of that project was trying to figure out how to correctly use OAuth so that Bixby could have permission to communicate to the Spotify API and get the JSON info from it. So I decided to create a blog post dedicated to teaching people how to apply OAuth their code. In this post, I'll provide example code (Which you'll download from Github) to apply your Client ID and Client Secret that you'll get from Spotify.
+I recently completed a week long Bixby Hackathon at [42 Silicon valley](https://www.42.us.org/). My team managed to create  a music searching app that lets DJs find up songs for their genre and BPM using the Spotify API by just speaking to the phone. One of the hardest aspects of that project was trying to figure out how to correctly use OAuth so that Bixby could have permission to communicate to the Spotify API and get the JSON info from it. So I decided to create a blog post dedicated to teaching people how to apply OAuth their code. In this post, I'll provide example code (Which you'll download from Github) to apply your Client ID and Client Secret that you'll get from Spotify.
 
-Before we begin, you'll need to [download Bixby](https://bixbydevelopers.com/) and get a Spotify account (both are free). 
+Before we begin, you'll need to [download Bixby](https://bixbydevelopers.com/) and get a [Spotify](https://www.spotify.com/us/) account (both are free). 
 
 
-<b>Step 1</b>: Go to the spotify developers page and log in. 
+<b>Step 1</b>: Go to the [spotify developers page](https://developer.spotify.com/dashboard/) and log in. 
 
 
 <b>Step 2</b>: Be sure you're looking at the Dashboard section of the site. The page should look something like this:
@@ -18,7 +18,7 @@ Click on the "My New App" button to create a new app. I just named the app "test
 
 <img width="1094" alt="2" src="https://user-images.githubusercontent.com/16840579/56540633-2672e900-651e-11e9-9acc-c10438ecfb98.png">
 
-<b>Step 4:</b> Go to the Bixby Developer center and sign in. You should see a button to click on the top left to create a team. You can name the team whatever you want, but be sure to use an original Namespace. You most likely won't have access to the name "test_out_spotify" since I already took it. So come up with something original.
+<b>Step 4:</b> Go to the [Bixby Developer center and sign in](https://bixbydevelopers.com/dev/marketplace/). You should see a button to click on the top left to create a team. You can name the team whatever you want, but be sure to use an original Namespace. You most likely won't have access to the name "test_out_spotify" since I already took it. So come up with something original.
 
 <img width="467" alt="3" src="https://user-images.githubusercontent.com/16840579/56539608-4523b080-651b-11e9-8a73-498aea9c2907.png">
 
@@ -47,7 +47,8 @@ https://test_out_spotify-example.oauth.aibixby.com/auth/external/cb
 <img width="556" alt="7" src="https://user-images.githubusercontent.com/16840579/56539626-4f45af00-651b-11e9-9498-ce965da25d90.png">
 
 <b>Step 7:</b> So now that we have all the credentials we need, lets apply them to actual code. I created a capsule that will access the Spotify API and display a track ID, a track name, and a track tempo.
-Click this link to clone the example repo.
+
+[Click this link to clone the example repo](https://github.com/JamieDawson/bixby_oauth_example).
 
 <b>Step 8:</b> Drag the downloaded repo into bixby.
 
