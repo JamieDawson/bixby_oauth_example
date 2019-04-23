@@ -1,3 +1,6 @@
+NOTE: This is the example code I created for Bixby to teach people who to use OAuth for the Spotify API. I created this repo so that people could download it and test their Spotify Client ID and Client Secret to confirm if they are using OAuth correctly. You're probably here because you found think link in my Medium post. If not, then you can read my entire tutorial by reading everything below.
+
+
 I recently completed a week long Bixby Hackathon at 42 Silicon valley. My team managed to create  a music searching app that lets DJs find up songs for their genre and BPM using the Spotify API by just speaking to the phone. One of the hardest aspects of that project was trying to figure out how to correctly use OAuth so that Bixby could have permission to communicate to the Spotify API and get the JSON info from it. So I decided to create a blog post dedicated to teaching people how to apply OAuth their code. In this post, I'll provide example code (Which you'll download from Github) to apply your Client ID and Client Secret that you'll get from Spotify.
 
 Before we begin, you'll need to download Bixby and get a Spotify account (both are free). 
