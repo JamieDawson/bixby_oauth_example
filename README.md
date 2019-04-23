@@ -1,7 +1,7 @@
-NOTE: This is the example code I created for Bixby to teach people who to use OAuth for the Spotify API. I created this repo so that people could download it and test their Spotify Client ID and Client Secret to confirm if they are using OAuth correctly. You're probably here because you found think link in my Medium post. If not, then you can read my entire tutorial by reading everything below.
+NOTE: This is the example code I created for Bixby to teach people who to use OAuth for the Spotify API. I created this repo so that people could download it and test their Spotify *Client ID* and *Client Secret* to confirm if they are using OAuth correctly. You're probably here because you found think link in my Medium post. If not, then you can read my entire tutorial by reading everything below.
 
 
-I recently completed a week long Bixby Hackathon at [42 Silicon valley](https://www.42.us.org/). My team managed to create  a music searching app that lets DJs find up songs for their genre and BPM using the Spotify API by just speaking to the phone. One of the hardest aspects of that project was trying to figure out how to correctly use OAuth so that Bixby could have permission to communicate to the Spotify API and get the JSON info from it. So I decided to create a blog post dedicated to teaching people how to apply OAuth their code. In this post, I'll provide example code (Which you'll download from Github) to apply your Client ID and Client Secret that you'll get from Spotify.
+I recently completed a week long Bixby Hackathon at [42 Silicon valley](https://www.42.us.org/). My team managed to create  a music searching app that lets DJs find up songs for their genre and BPM using the Spotify API by just speaking to the phone. One of the hardest aspects of that project was trying to figure out how to correctly use OAuth so that Bixby could have permission to communicate to the Spotify API and get the JSON info from it. So I decided to create a blog post dedicated to teaching people how to apply OAuth their code. In this post, I'll provide example code (Which you'll download from Github) to apply your *Client ID* and *Client Secret* that you'll get from Spotify.
 
 Before we begin, you'll need to [download Bixby](https://bixbydevelopers.com/) and get a [Spotify](https://www.spotify.com/us/) account (both are free). 
 
@@ -29,7 +29,7 @@ Click the "Register Capsule" button. I'm just going to add the word "example" to
 
 NOTE: remember test_out_spotify.example (or whatever you call your project). This name will be used in your code later.
 
-<b>Step 5:</b> Click on the Config & Secrets button. This is where you're going to take the Client ID and Client Secret from Spotify so that your app will have access to it. Click the +add button under Secrets. Use the name "id" and apply the Spotify Client ID. Then add the name "secret" and apply the Spotify Client Secret. Be sure to hit the "save and apply" button when you click add.
+<b>Step 5:</b> Click on the <b>Config & Secrets button</b>. This is where you're going to take the *Client ID* and *Client Secret* from Spotify so that your app will have access to it. Click the +add button under Secrets. Use the name <b>"id"</b> and apply the Spotify *Client ID*. Then add the name <b>"secret"</b> and apply the Spotify *Client Secret*. Be sure to hit the "save and apply" button when you click add.
 
 ![5](https://user-images.githubusercontent.com/16840579/56542376-275a4980-6523-11e9-9b5b-c5f7d1266186.png)
 
@@ -38,11 +38,11 @@ NOTE: remember test_out_spotify.example (or whatever you call your project). Thi
 
 <img width="853" alt="6" src="https://user-images.githubusercontent.com/16840579/56540878-d8121a00-651e-11e9-9ba6-e4f41ff48905.png">
 
-From there, we will need to add our link inside the Redirect URIs option. The format for what we have to type inside that option will look like this:
+From there, we will need to add our link inside the <b>Redirect URIs</b> option. The format for what we have to type inside that option will look like this:
 
 `https://<your-capsule-id>.oauth.aibixby.com/auth/external/cb`
   
-Remember how my project is called test_out_spotify.example (see Step 4)? Where the "." is between test_out_spotify and example, replace it with a "-". replace <your-capsule-id> inside the above example with your project name. 
+Remember how my project is called <b>test_out_spotify.example</b> (see Step 4)? Where the "." is between test_out_spotify and example, replace it with a "-". replace <your-capsule-id> inside the above example with your project name. 
 The URI should look something like this:
   
 `https://test_out_spotify-example.oauth.aibixby.com/auth/external/cb`
@@ -55,11 +55,11 @@ The URI should look something like this:
 
 <b>Step 8:</b> Drag the downloaded repo into bixby.
 
-<b>Step 9:</b> Go to capsule.bxb and replace it with the name you chose from step 4.
+<b>Step 9:</b> Go to <b>capsule.bxb</b> and replace it with the name you chose from step 4.
 
 <img width="801" alt="8" src="https://user-images.githubusercontent.com/16840579/56539628-5076dc00-651b-11e9-866e-fbd36d8115c4.png">
 
-<b>Step 10:</b> Inside resources->base->player.endpoints.bxb, add your Client ID and Secret Client to your code from your Spotify account that you acquired in step 3.
+<b>Step 10:</b> Inside <b>resources->base->player.endpoints.bxb</b>, add your *Client ID* and *Secret Client* to your code from your Spotify account that you acquired in step 3.
 
 <img width="903" alt="9" src="https://user-images.githubusercontent.com/16840579/56539632-52409f80-651b-11e9-9ca8-29bb7692d432.png">
 
